@@ -1,0 +1,44 @@
+sandboxed:false
+executables:
+{
+	lcd = ( lcdComponent )
+}
+
+
+
+processes:
+{
+	envVars:
+	{
+		LE_LOG_LEVEL = DEBUG
+	}
+
+	run:
+	{
+		( lcd )
+	}
+
+	maxCoreDumpFileBytes: 512K
+	maxFileBytes: 512K
+}
+
+
+
+requires:
+{
+	
+	
+	device:
+	{
+		
+		[rw] /dev/spidev1.0 /dev/spidev1.0
+		
+	}
+	file:
+	{
+		/sys/class/gpio/export /sys/class/gpio/
+	}
+	
+	
+}
+
