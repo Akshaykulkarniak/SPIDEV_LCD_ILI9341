@@ -1,0 +1,6 @@
+sources:
+{
+	lcdComponent.c
+	ILI9341.c
+}
+
