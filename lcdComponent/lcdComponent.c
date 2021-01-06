@@ -264,7 +264,7 @@ unsigned char reverse(unsigned char v);
 	ind++;
 		push_color(1,0xF800,0,0,240,320);//clear screen
 		sleep(2);
-		GLCD_DrawString("SYRATRON TECHNOLOGIES",160,40,0xFFFF, 0xF800); // CHAR->LEFT->TOP->FGND->BGND // SIERRA
+		GLCD_DrawString("AKSHAY KULKARNI",160,40,0xFFFF, 0xF800); // CHAR->LEFT->TOP->FGND->BGND // SIERRA
 		GLCD_DrawString("PRESENTS",140,120,0xFFFF,0xF800); // CHAR->LEFT->TOP->FGND->BGND // SIERRA
 		GLCD_DrawString("SIERRA WIRELESS",100,80, 0xFFFF, 0xF800); // CHAR->LEFT->TOP->FGND->BGND // SIERRA
 		GLCD_DrawString("WP7608",80,120, 0xFFFF, 0xF800); // CHAR->LEFT->TOP->FGND->BGND // SIERRA
